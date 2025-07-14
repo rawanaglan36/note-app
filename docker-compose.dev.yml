@@ -1,0 +1,16 @@
+
+services:
+  node-app:
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./backend:/app:ro
+      - node_modules_dev:/app/node_modules
+
+volumes:
+  node_modules_dev:
+    
+
+
+    

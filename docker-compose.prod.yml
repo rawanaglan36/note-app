@@ -1,0 +1,6 @@
+
+services:
+    node-app:
+      build:
+        context: .
+        target: production
